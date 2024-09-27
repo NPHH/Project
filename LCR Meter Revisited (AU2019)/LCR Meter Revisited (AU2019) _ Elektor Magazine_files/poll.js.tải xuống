@@ -1,0 +1,32 @@
+var Poll = {
+    submit: function (form) {
+        var overlay = form.parent().find('.PollOverlay');
+        overlay.show();
+
+        form.find('.has-error').removeClass('has-error');
+
+        $.ajax({
+            url: form.attr('action'),
+            type: 'POST',
+            data: form.serializeArray()
+        }).done(function (response) {
+            form.parent().replaceWith(response);
+            overlay.hide();
+        }).fail(function (response) {
+            if (response.status == 422) {
+                var errors = JSON.parse(response.responseText);
+
+                form.parent().find('.Poll__errors').html("");
+
+                $.each(errors, function (key, value) {
+                    form.find(':input[data-validation-id="' + key + '"]').addClass('has-error');
+                    form.parent().find('.Poll__errors').append('<li>' + value + '</li>');
+                });
+            }
+
+            overlay.hide();
+        });
+
+        return false;
+    }
+};

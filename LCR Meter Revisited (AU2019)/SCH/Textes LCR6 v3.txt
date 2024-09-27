@@ -1,0 +1,265 @@
+// ********************************
+:04 13 LANG_ARRAY
+// --------------------------------
+English     
+Français    
+Deutsch     
+Nederlands  
+// ********************************
+:11 36 CONFIG_ARRAY
+// English ------------------------
+Set sine generator offset          
+Measured value of Vref (DDS)       
+CMRR of Voltage diff. opamp        
+PGA2: gain 3 calibration           
+PGA2: gain 10 calibration          
+Calibration of the range 1         
+Calibration of the range 2         
+Calibration of the range 3         
+Calibration of the range 4         
+<Short-circuit> Trim, all freq.    
+<Open-circuit> Trim, all freq.     
+// French -------------------------
+Réglage offset générateur sinus    
+Valeur mesurée de Vref (DDS)       
+CMRR de l'ampli diff. de mesure U  
+PGA2: calibration en gain 3        
+PGA2: calibration en gain 10       
+Calibration de la gamme 1          
+Calibration de la gamme 2          
+Calibration de la gamme 3          
+Calibration de la gamme 4          
+Trim <court-circuit> toutes fréq.  
+Trim <circuit-ouvert> toutes fréq. 
+// Deutsch ------------------------
+DC-Einstellungen Sinusgenerator    
+Gemessene Spannung von Vref (DDS)  
+CMRR of Voltage diff. opamp        
+PGA2: Kalibrierung Verstärkung 3   
+PGA2: Kalibrierung Verstärkung 10  
+Kalibrierung Bereich 1             
+Kalibrierung Bereich 2             
+Kalibrierung Bereich 3             
+Kalibrierung Bereich 4             
+Abgleich alle Freq. <Kurzschluss>  
+Abgleich alle Freq. <Leerlauf>     
+// Nederlands ---------------------
+DC-instelling sinusgenerator       
+Gemeten waarde Vref (DDS)          
+CMRR spanningsverschilversterker   
+PGA2: calibratie bij 3x versterken 
+PGA2: calibratie bij 10x versterken
+Calibratie bereik 1                
+Calibratie bereik 2                
+Calibratie bereik 3                
+Calibratie bereik 4                
+Afregeling alle freqs <kortsl.>    
+Afregeling alle freqs <open>       
+// ********************************
+:42 36 TEXT_ARRAY
+// English ------------------------
+PS Test Error, code %u             
+INITIALISATION, WAIT...            
+No jumper fitted on J10 to J13     
+Adjust C51 for |Phi| < 0.3         
+Adjust C106 for |Phi| < 0.1        
+Save the gain?                     
+Select normalized value            
+-> Adjust R146 for DC null on TP7  
+Saving the Trim data...            
+No Trim data to save               
+Back up the data?                  
+No DC bias for resistor            
+Calculating the gain and phase     
+  -> Put a jumper on J10           
+  -> Put a jumper on J11           
+  -> Put a jumper on J12           
+  -> Put a jumper on J13           
+Not the right jumper, exit         
+Okay, will take few minutes        
+Perform calibration of range 1     
+Perform calibration of range 2     
+Perform calibration of range 3     
+Perform calibration of range 4     
+Error, exit                        
+Perform PGA2 calibration gain 3    
+Perform PGA2 calibration gain 10   
+Short circuit trim. Wait...        
+Open circuit trim. Wait...         
+Use saved frequency?               
+  -> Open or Short the circuit     
+Save the frequency?                
+-- FAIL --                         
+PASS                               
+Short circuit before enter menu    
+Open circuit before enter menu     
+Adjust R31 for minimum voltage     
+Adjust C44 for minimum voltage     
+J9 & J17 closed, J8 open           
+DC Bias voltage: 0 to 5V           
+DC Bias current: 0 to 50mA         
+AC Drive level: 0.1V RMS to 1V RMS 
+Measured voltage on TP6            
+// French -------------------------
+Test alim.: erreur code %u         
+INITIALISATION EN COURS...         
+Aucun cavalier de J10 à J13        
+Régler C51 pour |Phi| < 0.3        
+Régler C106 pour |Phi| < 0.1       
+Sauvegarder le gain?               
+Sélectionner la valeur normalisée  
+-> Régler R146 pour 0V en TP7      
+Sauvegarde des données du Trim...  
+Pas de données Trim à sauvegarder  
+Sauvegarder les valeurs?           
+Pas polar. pour une résistance     
+Calcul du gain et de la phase      
+  -> mettre un cavalier en J10     
+  -> mettre un cavalier en J11     
+  -> mettre un cavalier en J12     
+  -> mettre un cavalier en J13     
+Pas le bon cavalier, quittez       
+OK, patientez quelques minutes     
+Faire la calibration de la gamme 1 
+Faire la calibration de la gamme 2 
+Faire la calibration de la gamme 3 
+Faire la calibration de la gamme 4 
+Erreur, quittez                    
+Faire la calibration PGA2 gain 3   
+Faire la calibration PGA2 gain 10  
+Trim en court-circuit, patientez.. 
+Trim en circuit ouvert, patientez..
+Utiliser la valeur enregistrée?    
+  -> Ouvrir ou Fermer le circuit   
+Enregistrer la fréquence?          
+-- Echec du TRIM --                
+OK                                 
+Commencer par fermer le circuit    
+Commencer par ouvrir le circuit    
+Régler R31 pour tension minimale   
+Régler C44 pour tension minimale   
+Pas J8, J9 mis, J17 mis            
+Tension de polarisation: 0 à 5V    
+Courant de polarisation: 0 à 50mA  
+Tension d'essai: 0.1 Veff à 1 Veff 
+Valeur de la tension en TP6        
+// Deutsch ------------------------
+PS Test Fehler, Code %u            
+INITIALISIERUNG, ETWAS GEDULD...   
+Keine Jumper auf JP10 bis JP13     
+Justiere C51 für |Phi| < 0.3       
+Justiere C106 für |Phi| < 0.1      
+Verstärkung speichern?             
+Normalisierten Wert wählen         
+-> R146 einstellen für 0V an TP7   
+Speichern der Abgleich-Daten       
+Keine Abgleich-Daten zum speichern 
+Daten speichern?                   
+Kein DC-Bias für Widerstände       
+Berechne Gain und Phase            
+ -> Jumper auf JP10 setzen         
+ -> Jumper auf JP11 setzen         
+ -> Jumper auf JP12 setzen         
+ -> Jumper auf JP13 setzen         
+Nicht der richtige Jumper, ende    
+Okay, bitte ein paar Minuten Geduld
+Ausführung Kalibrierung Bereich 1  
+Ausführung Kalibrierung Bereich 2  
+Ausführung Kalibrierung Bereich 3  
+Ausführung Kalibrierung Bereich 4  
+Fehler, Abbruch                    
+Ausführung Kalibrierung PGA2 Gain3 
+Ausführung Kalibrierung PGA2 Gain10
+Kurzschluss-Abgleich, bitte warten 
+Leerlauf-Abgleich, bitte warten    
+Gespeicherte Frequenz benutzen?    
+ ->Leerlauf / Kurzschluss erzeugen 
+Frequenz speichern?                
+-- Abgleichfehler --               
+Okay                               
+Kurzschliessen vor Menüauswahl     
+Leerlauf generieren vor Menüauswahl
+R31 abgleichen für min. Spannung   
+C44 abgleichen für min. Spannung   
+JP8 offen, JP9 und JP17 schliessen 
+DC-Bias Spannung: 0 bis 5V         
+DC-Bias Strom: 0 bis 50mA          
+AC Bereich: 0.1 Veff bis 1 Veff    
+Gemessene Spannung an TP6          
+// Nederlands ---------------------
+PS test fout, code %u              
+INITIALISATIE, EVEN GEDULD...      
+Geen jumpers JP10 t/m JP13         
+Afregeling C51 voor |Phi| < 0.3    
+Afregeling C106 voor |Phi| < 0.1   
+Versterking opslaan?               
+Selecteer genormaliseerde waarde   
+-> Regel R146 af op 0 VDC op TP7   
+Opslaan afregeling...              
+Geen afregelings-gegevens          
+Gegevens opslaan?                  
+Geen DC bias voor weerstand        
+Berekening versterking en fase     
+  -> Plaats jumper JP10            
+  -> Plaats jumper JP11            
+  -> Plaats jumper JP12            
+  -> Plaats jumper JP13            
+Verkeerde jumper, exit             
+Oke, dit duurt een paar minuten    
+Uitvoering calibratie bereik 1     
+Uitvoering calibratie bereik 2     
+Uitvoering calibratie bereik 3     
+Uitvoering calibratie bereik 4     
+Fout, exit                         
+Uitvoering calibratie PGA2 3x      
+Uitvoering calibratie PGA2 10x     
+Afregeling kortgesloten. Wacht...  
+Afregeling open. Wacht...          
+Opgeslagen frequentie gebruiken?   
+  -> open of sluit circuit kort    
+Frequentie opslaan?                
+-- MISLUKT --                      
+GESLAAGD                           
+Kortsluiten voor selectie menu     
+Openen voor selectie menu          
+Regel R31 af op minimale spanning  
+Regel C44 af op minimale spanning  
+JP9 en JP17 gesloten, JP8 open     
+DC Bias-spanning: 0 tot 5V         
+DC Bias-stroom: 0 tot 50mA         
+AC niveau: 0.1V RMS tot 1V RMS     
+Gemeten spanning op TP6            
+// ********************************
+:07 36 MENU_ARRAY
+// English ------------------------
+Language                           
+Q limit for secondary display      
+Sorting parameters                 
+Sort                               
+AC level                           
+DC bias                            
+Change Display: INVERSE/NORMAL     
+// French -------------------------
+Langage                            
+Q limite pour affichage secondaire 
+Paramètres du tri                  
+Tri                                
+Amplitude de la sinusoïde          
+Polarisation continue              
+Modifier Affichage: INVERSE/NORMAL 
+// Deutsch ------------------------
+Sprache                            
+Q Limit für zweites Display        
+Sortierparameter                   
+Sortieren                          
+AC level                           
+DC bias                            
+Anzeige ändern: INVERSE/NORMAL     
+// Nederlands ---------------------
+Taal                               
+Q-drempel voor extra weergave      
+Sorteerparameters                  
+Sorteren                           
+AC level                           
+DC level                           
+Weergave wijzigen: INVERSE/NORMAAL 

@@ -1,0 +1,1 @@
+function countView(){var t=$('meta[name="countable"]');if(t.length){var n=t.first().attr("content");n&&$.post("/ping",{key:n})}}$(document).ready(function(){countView()});
